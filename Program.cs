@@ -20,7 +20,7 @@ uint count2 = 2;
 while (count2 <= 10)
 {
     if (number2 % count2 == 0)
-        divisors += Convert.ToString(count2) + " ";
+        divisors += Convert.ToString(count2) + ", ";
     count2++;
 }
 Console.WriteLine(divisors);
@@ -52,7 +52,7 @@ Console.WriteLine("Sonlar yig'indisi: "+sum4);
 //5. Armstrong sonlar - Armstrong numbers
 Console.Write("Enter the number: ");
 ulong armNum5 = Convert.ToUInt64(Console.ReadLine());
-ulong sum5=0; //2345
+ulong sum5=0;
 ulong i5 = armNum5;
 while(i5>10)
 { 
