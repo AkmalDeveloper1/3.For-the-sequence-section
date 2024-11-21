@@ -23,7 +23,7 @@ while (count2 <= 10)
         divisors += Convert.ToString(count2) + ", ";
     count2++;
 }
-Console.WriteLine(divisors);
+Console.WriteLine(divisors.Trim(' ',','));
 
 // 3. Calculating the Power of a Number - Daraja hisoblash:
 Console.Write("Enter the number: ");
